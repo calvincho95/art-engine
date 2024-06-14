@@ -15,9 +15,9 @@ const layersDir = path.join(basePath, "/layers");
  * General Generator Options
  ***********************/
 
-const description =
-  "This is the description of your NFT project, remember to replace this";
-const baseUri = "ipfs://NewUriToReplace";
+const description = "여러가지 색의 사람";
+const baseUri =
+  "https://orange-high-worm-726.mypinata.cloud/ipfs/QmbNoxzS4vY8xJ2X99ZW7uz5ZENWBU3Yte4JwETCnbGngc/"; //이미지 주소 올리는 것
 
 const outputJPEG = false; // if false, the generator outputs png's
 
@@ -25,7 +25,7 @@ const outputJPEG = false; // if false, the generator outputs png's
  * Set your tokenID index start number.
  * ⚠️ Be sure it matches your smart contract!
  */
-const startIndex = 0;
+const startIndex = 1;
 
 const format = {
   width: 512,
@@ -40,23 +40,9 @@ const background = {
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
-    namePrefix: "Series 2", // Use to add a name to Metadata `name:`
-    layersOrder: [
-      { name: "Background" },
-      {
-        name: "Back Accessory",
-        // options: {
-        //   bypassDNA: true,
-        // },
-      },
-      { name: "Head" },
-      { name: "Clothes" },
-      { name: "Eyes" },
-      { name: "Hair" },
-      { name: "Accessory" },
-      { name: "Shirt Accessories" },
-    ],
+    growEditionSizeTo: 9, //nft 개수
+    namePrefix: "사람 nft", // Use to add a name to Metadata `name:`
+    layersOrder: [{ name: "Body" }, { name: "Face" }, { name: "Star" }],
   },
   // {
   //   growEditionSizeTo: 10,
