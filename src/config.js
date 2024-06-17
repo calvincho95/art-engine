@@ -15,7 +15,7 @@ const layersDir = path.join(basePath, "/layers");
  * General Generator Options
  ***********************/
 
-const description = "여러가지 색의 사람";
+const description = "Simpson is holding a very important sign on a NYC street";
 const baseUri =
   "https://orange-high-worm-726.mypinata.cloud/ipfs/QmbNoxzS4vY8xJ2X99ZW7uz5ZENWBU3Yte4JwETCnbGngc/"; //이미지 주소 올리는 것
 
@@ -40,9 +40,9 @@ const background = {
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 9, //nft 개수
-    namePrefix: "사람 nft", // Use to add a name to Metadata `name:`
-    layersOrder: [{ name: "Body" }, { name: "Face" }, { name: "Star" }],
+    growEditionSizeTo: 300, //nft 개수
+    namePrefix: "Simpson With A Sign - NYC", // Use to add a name to Metadata `name:`
+    layersOrder: [{ name: "Frame" }, { name: "Sign" }, { name: "Simpson" }],
   },
   // {
   //   growEditionSizeTo: 10,

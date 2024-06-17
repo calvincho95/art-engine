@@ -1,8 +1,8 @@
 # Art Engine
 
-### Under development: for more documentation, see the   readme.md
+### Under development: for more documentation, see the readme.md
 
-### GitHub Generator Repo: [https://github.com/nftchef/hashlips\_art\_engine/tree/nested-folder-structure](https://github.com/nftchef/hashlips\_art\_engine/tree/nested-folder-structure)
+### GitHub Generator Repo: [https://github.com/nftchef/hashlips_art_engine/tree/nested-folder-structure](https://github.com/nftchef/hashlips_art_engine/tree/nested-folder-structure)
 
 This art engine is based on and continues to use the interface and setup from the Hashlips Art Engine.&#x20;
 
